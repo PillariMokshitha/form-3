@@ -1,0 +1,71 @@
+
+/* element/tag selector applied to body element */
+body{
+    background-color: yellow;
+}
+
+
+/* styling content section with padding,margins,etc..  */
+.content{
+    width:400px;
+    height:auto;
+    padding-top:5px;
+    margin:100px;
+    margin-left: 500px;
+    background-color:white;
+}
+
+/* using position property to element icon at  top-border */
+img{
+    border-radius:50px;
+    position:absolute;
+    top:40px;
+    left:650px;
+}
+
+/* styling heading-h2 element */
+h2{
+    margin-top:80px;
+    text-align: center;
+    color: #9f9696;
+}
+
+/* flex implementation for form elements */
+.forms{
+    display:flex;
+    flex-direction: column;
+    margin:30px;
+}
+
+/* attribute selector for input type:text and password */
+input[type="text"],input[type="password"]{
+    border:none;
+    outline:none;
+    background-color:lightgray;
+    padding:10px;
+    margin:5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+
+}
+
+/* element selector to style button element */
+button{
+    border:none;
+    outline: none;
+    background-color: hsl(154.42deg 58.46% 59.05%);
+    padding:10px;
+    margin:5px;
+    color:white;
+    border-radius: 3px;
+}
+
+/* styling anchor tag with different properties */
+a{
+    margin:15px;
+    text-decoration: none;
+    text-align:center ;
+    color: #b5a8a8;
+    margin-bottom: 30px;
+
+}
